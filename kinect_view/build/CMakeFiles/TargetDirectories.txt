@@ -1,0 +1,1 @@
+/home/wang/pcl_test/kinect_view/build/CMakeFiles/openni_viewer_simple.dir
