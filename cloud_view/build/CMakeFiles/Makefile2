@@ -46,14 +46,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/pcl_test/cloud_view
+CMAKE_SOURCE_DIR = /home/wang/Desktop/pcl_test/cloud_view
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/pcl_test/cloud_view/build
+CMAKE_BINARY_DIR = /home/wang/Desktop/pcl_test/cloud_view/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/cloud_viewer.dir
@@ -62,7 +59,7 @@ CMAKE_BINARY_DIR = /home/wang/pcl_test/cloud_view/build
 CMakeFiles/cloud_viewer.dir/all:
 	$(MAKE) -f CMakeFiles/cloud_viewer.dir/build.make CMakeFiles/cloud_viewer.dir/depend
 	$(MAKE) -f CMakeFiles/cloud_viewer.dir/build.make CMakeFiles/cloud_viewer.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/pcl_test/cloud_view/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/Desktop/pcl_test/cloud_view/build/CMakeFiles  1
 	@echo "Built target cloud_viewer"
 .PHONY : CMakeFiles/cloud_viewer.dir/all
 
@@ -72,9 +69,9 @@ all: CMakeFiles/cloud_viewer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cloud_viewer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/pcl_test/cloud_view/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/Desktop/pcl_test/cloud_view/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cloud_viewer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/pcl_test/cloud_view/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/Desktop/pcl_test/cloud_view/build/CMakeFiles 0
 .PHONY : CMakeFiles/cloud_viewer.dir/rule
 
 # Convenience name for target.

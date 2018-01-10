@@ -46,14 +46,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/pcl_test/kinect_view
+CMAKE_SOURCE_DIR = /home/wang/Desktop/pcl_test/kinect_view
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/pcl_test/kinect_view/build
+CMAKE_BINARY_DIR = /home/wang/Desktop/pcl_test/kinect_view/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/openni_viewer_simple.dir
@@ -62,7 +59,7 @@ CMAKE_BINARY_DIR = /home/wang/pcl_test/kinect_view/build
 CMakeFiles/openni_viewer_simple.dir/all:
 	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/depend
 	$(MAKE) -f CMakeFiles/openni_viewer_simple.dir/build.make CMakeFiles/openni_viewer_simple.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/pcl_test/kinect_view/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/Desktop/pcl_test/kinect_view/build/CMakeFiles  1
 	@echo "Built target openni_viewer_simple"
 .PHONY : CMakeFiles/openni_viewer_simple.dir/all
 
@@ -72,9 +69,9 @@ all: CMakeFiles/openni_viewer_simple.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/openni_viewer_simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/pcl_test/kinect_view/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/Desktop/pcl_test/kinect_view/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/openni_viewer_simple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/pcl_test/kinect_view/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wang/Desktop/pcl_test/kinect_view/build/CMakeFiles 0
 .PHONY : CMakeFiles/openni_viewer_simple.dir/rule
 
 # Convenience name for target.

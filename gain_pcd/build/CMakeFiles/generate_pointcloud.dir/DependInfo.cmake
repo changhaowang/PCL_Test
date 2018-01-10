@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wang/pcl_test/gain_pcd/generatePointCloud.cpp" "/home/wang/pcl_test/gain_pcd/build/CMakeFiles/generate_pointcloud.dir/generatePointCloud.o"
+  "/home/wang/Desktop/pcl_test/gain_pcd/generatePointCloud.cpp" "/home/wang/Desktop/pcl_test/gain_pcd/build/CMakeFiles/generate_pointcloud.dir/generatePointCloud.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

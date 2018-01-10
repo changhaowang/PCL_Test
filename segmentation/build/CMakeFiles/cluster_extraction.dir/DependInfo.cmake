@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wang/pcl_test/segmentation/cluster_extraction.cpp" "/home/wang/pcl_test/segmentation/build/CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o"
+  "/home/wang/Desktop/pcl_test/segmentation/cluster_extraction.cpp" "/home/wang/Desktop/pcl_test/segmentation/build/CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

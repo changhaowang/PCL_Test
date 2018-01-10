@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wang/pcl_test/segmentation/cluster_extraction.cpp
+/home/wang/Desktop/pcl_test/segmentation/cluster_extraction.cpp
 pcl/ModelCoefficients.h
 -
 pcl/point_types.h

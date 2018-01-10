@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/pcl_test/kinect_view
+CMAKE_SOURCE_DIR = /home/wang/Desktop/pcl_test/kinect_view
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/pcl_test/kinect_view/build
+CMAKE_BINARY_DIR = /home/wang/Desktop/pcl_test/kinect_view/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/openni_viewer_simple.dir/depend.make
@@ -54,17 +51,17 @@ include CMakeFiles/openni_viewer_simple.dir/flags.make
 
 CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.o: CMakeFiles/openni_viewer_simple.dir/flags.make
 CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.o: ../openni_viewer_simple.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/pcl_test/kinect_view/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/Desktop/pcl_test/kinect_view/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.o -c /home/wang/pcl_test/kinect_view/openni_viewer_simple.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.o -c /home/wang/Desktop/pcl_test/kinect_view/openni_viewer_simple.cpp
 
 CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/pcl_test/kinect_view/openni_viewer_simple.cpp > CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/Desktop/pcl_test/kinect_view/openni_viewer_simple.cpp > CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.i
 
 CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/pcl_test/kinect_view/openni_viewer_simple.cpp -o CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/Desktop/pcl_test/kinect_view/openni_viewer_simple.cpp -o CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.s
 
 CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.o.requires:
 .PHONY : CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.o.requires
@@ -98,7 +95,7 @@ openni_viewer_simple: /usr/local/lib/libpcl_octree.so
 openni_viewer_simple: /usr/local/lib/libpcl_search.so
 openni_viewer_simple: /usr/local/lib/libpcl_sample_consensus.so
 openni_viewer_simple: /usr/local/lib/libpcl_filters.so
-openni_viewer_simple: /usr/local/lib/libpcl_features.so
+openni_viewer_simple: /usr/local/lib/libpcl_tracking.so
 openni_viewer_simple: /usr/lib/libOpenNI.so
 openni_viewer_simple: /usr/lib/libvtkCommon.so.5.8.0
 openni_viewer_simple: /usr/lib/libvtkFiltering.so.5.8.0
@@ -116,17 +113,18 @@ openni_viewer_simple: /usr/lib/libvtkGeovis.so.5.8.0
 openni_viewer_simple: /usr/lib/libvtkViews.so.5.8.0
 openni_viewer_simple: /usr/lib/libvtkCharts.so.5.8.0
 openni_viewer_simple: /usr/local/lib/libpcl_io.so
-openni_viewer_simple: /usr/local/lib/libpcl_ml.so
-openni_viewer_simple: /usr/local/lib/libpcl_segmentation.so
 openni_viewer_simple: /usr/local/lib/libpcl_visualization.so
 openni_viewer_simple: /usr/lib/x86_64-linux-gnu/libqhull.so
 openni_viewer_simple: /usr/local/lib/libpcl_surface.so
-openni_viewer_simple: /usr/local/lib/libpcl_registration.so
+openni_viewer_simple: /usr/local/lib/libpcl_features.so
 openni_viewer_simple: /usr/local/lib/libpcl_keypoints.so
-openni_viewer_simple: /usr/local/lib/libpcl_tracking.so
-openni_viewer_simple: /usr/local/lib/libpcl_recognition.so
-openni_viewer_simple: /usr/local/lib/libpcl_stereo.so
+openni_viewer_simple: /usr/local/lib/libpcl_ml.so
+openni_viewer_simple: /usr/local/lib/libpcl_segmentation.so
 openni_viewer_simple: /usr/local/lib/libpcl_outofcore.so
+openni_viewer_simple: /usr/local/lib/libpcl_stereo.so
+openni_viewer_simple: /usr/local/lib/libpcl_registration.so
+openni_viewer_simple: /usr/local/lib/libpcl_recognition.so
+openni_viewer_simple: /usr/local/lib/libpcl_apps.so
 openni_viewer_simple: /usr/local/lib/libpcl_people.so
 openni_viewer_simple: /usr/lib/x86_64-linux-gnu/libboost_system.so
 openni_viewer_simple: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -159,18 +157,19 @@ openni_viewer_simple: /usr/local/lib/libpcl_octree.so
 openni_viewer_simple: /usr/local/lib/libpcl_search.so
 openni_viewer_simple: /usr/local/lib/libpcl_sample_consensus.so
 openni_viewer_simple: /usr/local/lib/libpcl_filters.so
-openni_viewer_simple: /usr/local/lib/libpcl_features.so
+openni_viewer_simple: /usr/local/lib/libpcl_tracking.so
 openni_viewer_simple: /usr/local/lib/libpcl_io.so
-openni_viewer_simple: /usr/local/lib/libpcl_ml.so
-openni_viewer_simple: /usr/local/lib/libpcl_segmentation.so
 openni_viewer_simple: /usr/local/lib/libpcl_visualization.so
 openni_viewer_simple: /usr/local/lib/libpcl_surface.so
-openni_viewer_simple: /usr/local/lib/libpcl_registration.so
+openni_viewer_simple: /usr/local/lib/libpcl_features.so
 openni_viewer_simple: /usr/local/lib/libpcl_keypoints.so
-openni_viewer_simple: /usr/local/lib/libpcl_tracking.so
-openni_viewer_simple: /usr/local/lib/libpcl_recognition.so
-openni_viewer_simple: /usr/local/lib/libpcl_stereo.so
+openni_viewer_simple: /usr/local/lib/libpcl_ml.so
+openni_viewer_simple: /usr/local/lib/libpcl_segmentation.so
 openni_viewer_simple: /usr/local/lib/libpcl_outofcore.so
+openni_viewer_simple: /usr/local/lib/libpcl_stereo.so
+openni_viewer_simple: /usr/local/lib/libpcl_registration.so
+openni_viewer_simple: /usr/local/lib/libpcl_recognition.so
+openni_viewer_simple: /usr/local/lib/libpcl_apps.so
 openni_viewer_simple: /usr/local/lib/libpcl_people.so
 openni_viewer_simple: /usr/lib/libvtkViews.so.5.8.0
 openni_viewer_simple: /usr/lib/libvtkInfovis.so.5.8.0
@@ -201,6 +200,6 @@ CMakeFiles/openni_viewer_simple.dir/clean:
 .PHONY : CMakeFiles/openni_viewer_simple.dir/clean
 
 CMakeFiles/openni_viewer_simple.dir/depend:
-	cd /home/wang/pcl_test/kinect_view/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/pcl_test/kinect_view /home/wang/pcl_test/kinect_view /home/wang/pcl_test/kinect_view/build /home/wang/pcl_test/kinect_view/build /home/wang/pcl_test/kinect_view/build/CMakeFiles/openni_viewer_simple.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wang/Desktop/pcl_test/kinect_view/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/Desktop/pcl_test/kinect_view /home/wang/Desktop/pcl_test/kinect_view /home/wang/Desktop/pcl_test/kinect_view/build /home/wang/Desktop/pcl_test/kinect_view/build /home/wang/Desktop/pcl_test/kinect_view/build/CMakeFiles/openni_viewer_simple.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/openni_viewer_simple.dir/depend
 

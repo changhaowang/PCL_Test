@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wang/pcl_test/kinect_view/openni_viewer_simple.cpp
+/home/wang/Desktop/pcl_test/kinect_view/openni_viewer_simple.cpp
 pcl/io/openni_grabber.h
 -
 pcl/visualization/cloud_viewer.h

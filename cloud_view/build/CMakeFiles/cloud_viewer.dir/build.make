@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/pcl_test/cloud_view
+CMAKE_SOURCE_DIR = /home/wang/Desktop/pcl_test/cloud_view
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/pcl_test/cloud_view/build
+CMAKE_BINARY_DIR = /home/wang/Desktop/pcl_test/cloud_view/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cloud_viewer.dir/depend.make
@@ -54,17 +51,17 @@ include CMakeFiles/cloud_viewer.dir/flags.make
 
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o: CMakeFiles/cloud_viewer.dir/flags.make
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o: ../cloud_viewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/pcl_test/cloud_view/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/Desktop/pcl_test/cloud_view/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o -c /home/wang/pcl_test/cloud_view/cloud_viewer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o -c /home/wang/Desktop/pcl_test/cloud_view/cloud_viewer.cpp
 
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/pcl_test/cloud_view/cloud_viewer.cpp > CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/Desktop/pcl_test/cloud_view/cloud_viewer.cpp > CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.i
 
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/pcl_test/cloud_view/cloud_viewer.cpp -o CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/Desktop/pcl_test/cloud_view/cloud_viewer.cpp -o CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.s
 
 CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o.requires:
 .PHONY : CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.o.requires
@@ -98,7 +95,7 @@ cloud_viewer: /usr/local/lib/libpcl_octree.so
 cloud_viewer: /usr/local/lib/libpcl_search.so
 cloud_viewer: /usr/local/lib/libpcl_sample_consensus.so
 cloud_viewer: /usr/local/lib/libpcl_filters.so
-cloud_viewer: /usr/local/lib/libpcl_features.so
+cloud_viewer: /usr/local/lib/libpcl_tracking.so
 cloud_viewer: /usr/lib/libOpenNI.so
 cloud_viewer: /usr/lib/libvtkCommon.so.5.8.0
 cloud_viewer: /usr/lib/libvtkFiltering.so.5.8.0
@@ -116,17 +113,18 @@ cloud_viewer: /usr/lib/libvtkGeovis.so.5.8.0
 cloud_viewer: /usr/lib/libvtkViews.so.5.8.0
 cloud_viewer: /usr/lib/libvtkCharts.so.5.8.0
 cloud_viewer: /usr/local/lib/libpcl_io.so
-cloud_viewer: /usr/local/lib/libpcl_ml.so
-cloud_viewer: /usr/local/lib/libpcl_segmentation.so
 cloud_viewer: /usr/local/lib/libpcl_visualization.so
 cloud_viewer: /usr/lib/x86_64-linux-gnu/libqhull.so
 cloud_viewer: /usr/local/lib/libpcl_surface.so
-cloud_viewer: /usr/local/lib/libpcl_registration.so
+cloud_viewer: /usr/local/lib/libpcl_features.so
 cloud_viewer: /usr/local/lib/libpcl_keypoints.so
-cloud_viewer: /usr/local/lib/libpcl_tracking.so
-cloud_viewer: /usr/local/lib/libpcl_recognition.so
-cloud_viewer: /usr/local/lib/libpcl_stereo.so
+cloud_viewer: /usr/local/lib/libpcl_ml.so
+cloud_viewer: /usr/local/lib/libpcl_segmentation.so
 cloud_viewer: /usr/local/lib/libpcl_outofcore.so
+cloud_viewer: /usr/local/lib/libpcl_stereo.so
+cloud_viewer: /usr/local/lib/libpcl_registration.so
+cloud_viewer: /usr/local/lib/libpcl_recognition.so
+cloud_viewer: /usr/local/lib/libpcl_apps.so
 cloud_viewer: /usr/local/lib/libpcl_people.so
 cloud_viewer: /usr/lib/x86_64-linux-gnu/libboost_system.so
 cloud_viewer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -159,18 +157,19 @@ cloud_viewer: /usr/local/lib/libpcl_octree.so
 cloud_viewer: /usr/local/lib/libpcl_search.so
 cloud_viewer: /usr/local/lib/libpcl_sample_consensus.so
 cloud_viewer: /usr/local/lib/libpcl_filters.so
-cloud_viewer: /usr/local/lib/libpcl_features.so
+cloud_viewer: /usr/local/lib/libpcl_tracking.so
 cloud_viewer: /usr/local/lib/libpcl_io.so
-cloud_viewer: /usr/local/lib/libpcl_ml.so
-cloud_viewer: /usr/local/lib/libpcl_segmentation.so
 cloud_viewer: /usr/local/lib/libpcl_visualization.so
 cloud_viewer: /usr/local/lib/libpcl_surface.so
-cloud_viewer: /usr/local/lib/libpcl_registration.so
+cloud_viewer: /usr/local/lib/libpcl_features.so
 cloud_viewer: /usr/local/lib/libpcl_keypoints.so
-cloud_viewer: /usr/local/lib/libpcl_tracking.so
-cloud_viewer: /usr/local/lib/libpcl_recognition.so
-cloud_viewer: /usr/local/lib/libpcl_stereo.so
+cloud_viewer: /usr/local/lib/libpcl_ml.so
+cloud_viewer: /usr/local/lib/libpcl_segmentation.so
 cloud_viewer: /usr/local/lib/libpcl_outofcore.so
+cloud_viewer: /usr/local/lib/libpcl_stereo.so
+cloud_viewer: /usr/local/lib/libpcl_registration.so
+cloud_viewer: /usr/local/lib/libpcl_recognition.so
+cloud_viewer: /usr/local/lib/libpcl_apps.so
 cloud_viewer: /usr/local/lib/libpcl_people.so
 cloud_viewer: /usr/lib/libvtkViews.so.5.8.0
 cloud_viewer: /usr/lib/libvtkInfovis.so.5.8.0
@@ -201,6 +200,6 @@ CMakeFiles/cloud_viewer.dir/clean:
 .PHONY : CMakeFiles/cloud_viewer.dir/clean
 
 CMakeFiles/cloud_viewer.dir/depend:
-	cd /home/wang/pcl_test/cloud_view/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/pcl_test/cloud_view /home/wang/pcl_test/cloud_view /home/wang/pcl_test/cloud_view/build /home/wang/pcl_test/cloud_view/build /home/wang/pcl_test/cloud_view/build/CMakeFiles/cloud_viewer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wang/Desktop/pcl_test/cloud_view/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/Desktop/pcl_test/cloud_view /home/wang/Desktop/pcl_test/cloud_view /home/wang/Desktop/pcl_test/cloud_view/build /home/wang/Desktop/pcl_test/cloud_view/build /home/wang/Desktop/pcl_test/cloud_view/build/CMakeFiles/cloud_viewer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cloud_viewer.dir/depend
 

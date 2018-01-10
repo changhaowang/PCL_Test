@@ -1,1 +1,1 @@
-/home/wang/pcl_test/pcd_viewer/build/CMakeFiles/pcd_viewer.dir
+/home/wang/Desktop/pcl_test/pcd_viewer/build/CMakeFiles/pcd_viewer.dir

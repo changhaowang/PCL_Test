@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wang/pcl_test/kinect_view/openni_viewer_simple.cpp" "/home/wang/pcl_test/kinect_view/build/CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.o"
+  "/home/wang/Desktop/pcl_test/kinect_view/openni_viewer_simple.cpp" "/home/wang/Desktop/pcl_test/kinect_view/build/CMakeFiles/openni_viewer_simple.dir/openni_viewer_simple.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

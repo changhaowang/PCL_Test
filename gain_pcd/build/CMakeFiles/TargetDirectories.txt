@@ -1,1 +1,1 @@
-/home/wang/pcl_test/gain_pcd/build/CMakeFiles/generate_pointcloud.dir
+/home/wang/Desktop/pcl_test/gain_pcd/build/CMakeFiles/generate_pointcloud.dir

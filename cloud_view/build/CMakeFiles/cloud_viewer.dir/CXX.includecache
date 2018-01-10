@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wang/pcl_test/cloud_view/cloud_viewer.cpp
+/home/wang/Desktop/pcl_test/cloud_view/cloud_viewer.cpp
 pcl/visualization/cloud_viewer.h
 -
 iostream

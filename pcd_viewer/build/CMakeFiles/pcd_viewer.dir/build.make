@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/pcl_test/pcd_viewer
+CMAKE_SOURCE_DIR = /home/wang/Desktop/pcl_test/pcd_viewer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/pcl_test/pcd_viewer/build
+CMAKE_BINARY_DIR = /home/wang/Desktop/pcl_test/pcd_viewer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pcd_viewer.dir/depend.make
@@ -54,17 +51,17 @@ include CMakeFiles/pcd_viewer.dir/flags.make
 
 CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.o: CMakeFiles/pcd_viewer.dir/flags.make
 CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.o: ../pcd_viewer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/pcl_test/pcd_viewer/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/Desktop/pcl_test/pcd_viewer/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.o -c /home/wang/pcl_test/pcd_viewer/pcd_viewer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.o -c /home/wang/Desktop/pcl_test/pcd_viewer/pcd_viewer.cpp
 
 CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/pcl_test/pcd_viewer/pcd_viewer.cpp > CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/Desktop/pcl_test/pcd_viewer/pcd_viewer.cpp > CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.i
 
 CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/pcl_test/pcd_viewer/pcd_viewer.cpp -o CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/Desktop/pcl_test/pcd_viewer/pcd_viewer.cpp -o CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.s
 
 CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.o.requires:
 .PHONY : CMakeFiles/pcd_viewer.dir/pcd_viewer.cpp.o.requires
@@ -98,7 +95,7 @@ pcd_viewer: /usr/local/lib/libpcl_octree.so
 pcd_viewer: /usr/local/lib/libpcl_search.so
 pcd_viewer: /usr/local/lib/libpcl_sample_consensus.so
 pcd_viewer: /usr/local/lib/libpcl_filters.so
-pcd_viewer: /usr/local/lib/libpcl_features.so
+pcd_viewer: /usr/local/lib/libpcl_tracking.so
 pcd_viewer: /usr/lib/libOpenNI.so
 pcd_viewer: /usr/lib/libvtkCommon.so.5.8.0
 pcd_viewer: /usr/lib/libvtkFiltering.so.5.8.0
@@ -116,17 +113,18 @@ pcd_viewer: /usr/lib/libvtkGeovis.so.5.8.0
 pcd_viewer: /usr/lib/libvtkViews.so.5.8.0
 pcd_viewer: /usr/lib/libvtkCharts.so.5.8.0
 pcd_viewer: /usr/local/lib/libpcl_io.so
-pcd_viewer: /usr/local/lib/libpcl_ml.so
-pcd_viewer: /usr/local/lib/libpcl_segmentation.so
 pcd_viewer: /usr/local/lib/libpcl_visualization.so
 pcd_viewer: /usr/lib/x86_64-linux-gnu/libqhull.so
 pcd_viewer: /usr/local/lib/libpcl_surface.so
-pcd_viewer: /usr/local/lib/libpcl_registration.so
+pcd_viewer: /usr/local/lib/libpcl_features.so
 pcd_viewer: /usr/local/lib/libpcl_keypoints.so
-pcd_viewer: /usr/local/lib/libpcl_tracking.so
-pcd_viewer: /usr/local/lib/libpcl_recognition.so
-pcd_viewer: /usr/local/lib/libpcl_stereo.so
+pcd_viewer: /usr/local/lib/libpcl_ml.so
+pcd_viewer: /usr/local/lib/libpcl_segmentation.so
 pcd_viewer: /usr/local/lib/libpcl_outofcore.so
+pcd_viewer: /usr/local/lib/libpcl_stereo.so
+pcd_viewer: /usr/local/lib/libpcl_registration.so
+pcd_viewer: /usr/local/lib/libpcl_recognition.so
+pcd_viewer: /usr/local/lib/libpcl_apps.so
 pcd_viewer: /usr/local/lib/libpcl_people.so
 pcd_viewer: /usr/lib/x86_64-linux-gnu/libboost_system.so
 pcd_viewer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -159,18 +157,19 @@ pcd_viewer: /usr/local/lib/libpcl_octree.so
 pcd_viewer: /usr/local/lib/libpcl_search.so
 pcd_viewer: /usr/local/lib/libpcl_sample_consensus.so
 pcd_viewer: /usr/local/lib/libpcl_filters.so
-pcd_viewer: /usr/local/lib/libpcl_features.so
+pcd_viewer: /usr/local/lib/libpcl_tracking.so
 pcd_viewer: /usr/local/lib/libpcl_io.so
-pcd_viewer: /usr/local/lib/libpcl_ml.so
-pcd_viewer: /usr/local/lib/libpcl_segmentation.so
 pcd_viewer: /usr/local/lib/libpcl_visualization.so
 pcd_viewer: /usr/local/lib/libpcl_surface.so
-pcd_viewer: /usr/local/lib/libpcl_registration.so
+pcd_viewer: /usr/local/lib/libpcl_features.so
 pcd_viewer: /usr/local/lib/libpcl_keypoints.so
-pcd_viewer: /usr/local/lib/libpcl_tracking.so
-pcd_viewer: /usr/local/lib/libpcl_recognition.so
-pcd_viewer: /usr/local/lib/libpcl_stereo.so
+pcd_viewer: /usr/local/lib/libpcl_ml.so
+pcd_viewer: /usr/local/lib/libpcl_segmentation.so
 pcd_viewer: /usr/local/lib/libpcl_outofcore.so
+pcd_viewer: /usr/local/lib/libpcl_stereo.so
+pcd_viewer: /usr/local/lib/libpcl_registration.so
+pcd_viewer: /usr/local/lib/libpcl_recognition.so
+pcd_viewer: /usr/local/lib/libpcl_apps.so
 pcd_viewer: /usr/local/lib/libpcl_people.so
 pcd_viewer: /usr/lib/libvtkViews.so.5.8.0
 pcd_viewer: /usr/lib/libvtkInfovis.so.5.8.0
@@ -201,6 +200,6 @@ CMakeFiles/pcd_viewer.dir/clean:
 .PHONY : CMakeFiles/pcd_viewer.dir/clean
 
 CMakeFiles/pcd_viewer.dir/depend:
-	cd /home/wang/pcl_test/pcd_viewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/pcl_test/pcd_viewer /home/wang/pcl_test/pcd_viewer /home/wang/pcl_test/pcd_viewer/build /home/wang/pcl_test/pcd_viewer/build /home/wang/pcl_test/pcd_viewer/build/CMakeFiles/pcd_viewer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wang/Desktop/pcl_test/pcd_viewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/Desktop/pcl_test/pcd_viewer /home/wang/Desktop/pcl_test/pcd_viewer /home/wang/Desktop/pcl_test/pcd_viewer/build /home/wang/Desktop/pcl_test/pcd_viewer/build /home/wang/Desktop/pcl_test/pcd_viewer/build/CMakeFiles/pcd_viewer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pcd_viewer.dir/depend
 

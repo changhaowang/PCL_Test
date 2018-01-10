@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/pcl_test/segmentation
+CMAKE_SOURCE_DIR = /home/wang/Desktop/pcl_test/segmentation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/pcl_test/segmentation/build
+CMAKE_BINARY_DIR = /home/wang/Desktop/pcl_test/segmentation/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cluster_extraction.dir/depend.make
@@ -54,17 +51,17 @@ include CMakeFiles/cluster_extraction.dir/flags.make
 
 CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o: CMakeFiles/cluster_extraction.dir/flags.make
 CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o: ../cluster_extraction.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/pcl_test/segmentation/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/Desktop/pcl_test/segmentation/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o -c /home/wang/pcl_test/segmentation/cluster_extraction.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o -c /home/wang/Desktop/pcl_test/segmentation/cluster_extraction.cpp
 
 CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/pcl_test/segmentation/cluster_extraction.cpp > CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/Desktop/pcl_test/segmentation/cluster_extraction.cpp > CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.i
 
 CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/pcl_test/segmentation/cluster_extraction.cpp -o CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/Desktop/pcl_test/segmentation/cluster_extraction.cpp -o CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.s
 
 CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o.requires:
 .PHONY : CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o.requires
@@ -98,7 +95,7 @@ cluster_extraction: /usr/local/lib/libpcl_octree.so
 cluster_extraction: /usr/local/lib/libpcl_search.so
 cluster_extraction: /usr/local/lib/libpcl_sample_consensus.so
 cluster_extraction: /usr/local/lib/libpcl_filters.so
-cluster_extraction: /usr/local/lib/libpcl_features.so
+cluster_extraction: /usr/local/lib/libpcl_tracking.so
 cluster_extraction: /usr/lib/libOpenNI.so
 cluster_extraction: /usr/lib/libvtkCommon.so.5.8.0
 cluster_extraction: /usr/lib/libvtkFiltering.so.5.8.0
@@ -116,17 +113,18 @@ cluster_extraction: /usr/lib/libvtkGeovis.so.5.8.0
 cluster_extraction: /usr/lib/libvtkViews.so.5.8.0
 cluster_extraction: /usr/lib/libvtkCharts.so.5.8.0
 cluster_extraction: /usr/local/lib/libpcl_io.so
-cluster_extraction: /usr/local/lib/libpcl_ml.so
-cluster_extraction: /usr/local/lib/libpcl_segmentation.so
 cluster_extraction: /usr/local/lib/libpcl_visualization.so
 cluster_extraction: /usr/lib/x86_64-linux-gnu/libqhull.so
 cluster_extraction: /usr/local/lib/libpcl_surface.so
-cluster_extraction: /usr/local/lib/libpcl_registration.so
+cluster_extraction: /usr/local/lib/libpcl_features.so
 cluster_extraction: /usr/local/lib/libpcl_keypoints.so
-cluster_extraction: /usr/local/lib/libpcl_tracking.so
-cluster_extraction: /usr/local/lib/libpcl_recognition.so
-cluster_extraction: /usr/local/lib/libpcl_stereo.so
+cluster_extraction: /usr/local/lib/libpcl_ml.so
+cluster_extraction: /usr/local/lib/libpcl_segmentation.so
 cluster_extraction: /usr/local/lib/libpcl_outofcore.so
+cluster_extraction: /usr/local/lib/libpcl_stereo.so
+cluster_extraction: /usr/local/lib/libpcl_registration.so
+cluster_extraction: /usr/local/lib/libpcl_recognition.so
+cluster_extraction: /usr/local/lib/libpcl_apps.so
 cluster_extraction: /usr/local/lib/libpcl_people.so
 cluster_extraction: /usr/lib/x86_64-linux-gnu/libboost_system.so
 cluster_extraction: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -159,18 +157,19 @@ cluster_extraction: /usr/local/lib/libpcl_octree.so
 cluster_extraction: /usr/local/lib/libpcl_search.so
 cluster_extraction: /usr/local/lib/libpcl_sample_consensus.so
 cluster_extraction: /usr/local/lib/libpcl_filters.so
-cluster_extraction: /usr/local/lib/libpcl_features.so
+cluster_extraction: /usr/local/lib/libpcl_tracking.so
 cluster_extraction: /usr/local/lib/libpcl_io.so
-cluster_extraction: /usr/local/lib/libpcl_ml.so
-cluster_extraction: /usr/local/lib/libpcl_segmentation.so
 cluster_extraction: /usr/local/lib/libpcl_visualization.so
 cluster_extraction: /usr/local/lib/libpcl_surface.so
-cluster_extraction: /usr/local/lib/libpcl_registration.so
+cluster_extraction: /usr/local/lib/libpcl_features.so
 cluster_extraction: /usr/local/lib/libpcl_keypoints.so
-cluster_extraction: /usr/local/lib/libpcl_tracking.so
-cluster_extraction: /usr/local/lib/libpcl_recognition.so
-cluster_extraction: /usr/local/lib/libpcl_stereo.so
+cluster_extraction: /usr/local/lib/libpcl_ml.so
+cluster_extraction: /usr/local/lib/libpcl_segmentation.so
 cluster_extraction: /usr/local/lib/libpcl_outofcore.so
+cluster_extraction: /usr/local/lib/libpcl_stereo.so
+cluster_extraction: /usr/local/lib/libpcl_registration.so
+cluster_extraction: /usr/local/lib/libpcl_recognition.so
+cluster_extraction: /usr/local/lib/libpcl_apps.so
 cluster_extraction: /usr/local/lib/libpcl_people.so
 cluster_extraction: /usr/lib/libvtkViews.so.5.8.0
 cluster_extraction: /usr/lib/libvtkInfovis.so.5.8.0
@@ -201,6 +200,6 @@ CMakeFiles/cluster_extraction.dir/clean:
 .PHONY : CMakeFiles/cluster_extraction.dir/clean
 
 CMakeFiles/cluster_extraction.dir/depend:
-	cd /home/wang/pcl_test/segmentation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/pcl_test/segmentation /home/wang/pcl_test/segmentation /home/wang/pcl_test/segmentation/build /home/wang/pcl_test/segmentation/build /home/wang/pcl_test/segmentation/build/CMakeFiles/cluster_extraction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wang/Desktop/pcl_test/segmentation/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/Desktop/pcl_test/segmentation /home/wang/Desktop/pcl_test/segmentation /home/wang/Desktop/pcl_test/segmentation/build /home/wang/Desktop/pcl_test/segmentation/build /home/wang/Desktop/pcl_test/segmentation/build/CMakeFiles/cluster_extraction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cluster_extraction.dir/depend
 

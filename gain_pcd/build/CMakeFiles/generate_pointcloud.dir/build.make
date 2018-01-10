@@ -34,14 +34,11 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
-# The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = /usr/bin/ccmake
-
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wang/pcl_test/gain_pcd
+CMAKE_SOURCE_DIR = /home/wang/Desktop/pcl_test/gain_pcd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wang/pcl_test/gain_pcd/build
+CMAKE_BINARY_DIR = /home/wang/Desktop/pcl_test/gain_pcd/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/generate_pointcloud.dir/depend.make
@@ -54,17 +51,17 @@ include CMakeFiles/generate_pointcloud.dir/flags.make
 
 CMakeFiles/generate_pointcloud.dir/generatePointCloud.o: CMakeFiles/generate_pointcloud.dir/flags.make
 CMakeFiles/generate_pointcloud.dir/generatePointCloud.o: ../generatePointCloud.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/pcl_test/gain_pcd/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/wang/Desktop/pcl_test/gain_pcd/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/generate_pointcloud.dir/generatePointCloud.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.o -c /home/wang/pcl_test/gain_pcd/generatePointCloud.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.o -c /home/wang/Desktop/pcl_test/gain_pcd/generatePointCloud.cpp
 
 CMakeFiles/generate_pointcloud.dir/generatePointCloud.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/generate_pointcloud.dir/generatePointCloud.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/pcl_test/gain_pcd/generatePointCloud.cpp > CMakeFiles/generate_pointcloud.dir/generatePointCloud.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/wang/Desktop/pcl_test/gain_pcd/generatePointCloud.cpp > CMakeFiles/generate_pointcloud.dir/generatePointCloud.i
 
 CMakeFiles/generate_pointcloud.dir/generatePointCloud.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/generate_pointcloud.dir/generatePointCloud.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/pcl_test/gain_pcd/generatePointCloud.cpp -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/wang/Desktop/pcl_test/gain_pcd/generatePointCloud.cpp -o CMakeFiles/generate_pointcloud.dir/generatePointCloud.s
 
 CMakeFiles/generate_pointcloud.dir/generatePointCloud.o.requires:
 .PHONY : CMakeFiles/generate_pointcloud.dir/generatePointCloud.o.requires
@@ -198,6 +195,6 @@ CMakeFiles/generate_pointcloud.dir/clean:
 .PHONY : CMakeFiles/generate_pointcloud.dir/clean
 
 CMakeFiles/generate_pointcloud.dir/depend:
-	cd /home/wang/pcl_test/gain_pcd/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/pcl_test/gain_pcd /home/wang/pcl_test/gain_pcd /home/wang/pcl_test/gain_pcd/build /home/wang/pcl_test/gain_pcd/build /home/wang/pcl_test/gain_pcd/build/CMakeFiles/generate_pointcloud.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wang/Desktop/pcl_test/gain_pcd/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wang/Desktop/pcl_test/gain_pcd /home/wang/Desktop/pcl_test/gain_pcd /home/wang/Desktop/pcl_test/gain_pcd/build /home/wang/Desktop/pcl_test/gain_pcd/build /home/wang/Desktop/pcl_test/gain_pcd/build/CMakeFiles/generate_pointcloud.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/generate_pointcloud.dir/depend
 

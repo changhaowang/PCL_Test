@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wang/pcl_test/source/pcd_write.cpp
+/home/wang/Desktop/pcl_test/pcd_write/pcd_write.cpp
 iostream
 -
 pcl/io/pcd_io.h
