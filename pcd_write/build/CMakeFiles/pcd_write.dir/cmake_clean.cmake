@@ -1,10 +1,10 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/pcd_write.dir/pcd_write.cpp.o"
   "pcd_write.pdb"
   "pcd_write"
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/pcd_write.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/pcd_write.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

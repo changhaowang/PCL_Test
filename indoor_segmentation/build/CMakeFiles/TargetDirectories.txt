@@ -1,0 +1,5 @@
+/home/wang/Desktop/pcl_test/indoor_segmentation/build/CMakeFiles/edit_cache.dir
+/home/wang/Desktop/pcl_test/indoor_segmentation/build/CMakeFiles/pcd_generate_straight.dir
+/home/wang/Desktop/pcl_test/indoor_segmentation/build/CMakeFiles/pcd_generate.dir
+/home/wang/Desktop/pcl_test/indoor_segmentation/build/CMakeFiles/Indoor_segmentation.dir
+/home/wang/Desktop/pcl_test/indoor_segmentation/build/CMakeFiles/rebuild_cache.dir

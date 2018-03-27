@@ -1,1 +1,3 @@
+/home/wang/Desktop/pcl_test/cloud_view/build/CMakeFiles/rebuild_cache.dir
+/home/wang/Desktop/pcl_test/cloud_view/build/CMakeFiles/edit_cache.dir
 /home/wang/Desktop/pcl_test/cloud_view/build/CMakeFiles/cloud_viewer.dir

@@ -1,15 +1,15 @@
 # The set of languages for which implicit dependencies are needed:
-SET(CMAKE_DEPENDS_LANGUAGES
+set(CMAKE_DEPENDS_LANGUAGES
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-SET(CMAKE_DEPENDS_CHECK_CXX
+set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wang/Desktop/pcl_test/segmentation/cluster_extraction.cpp" "/home/wang/Desktop/pcl_test/segmentation/build/CMakeFiles/cluster_extraction.dir/cluster_extraction.cpp.o"
   )
-SET(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
-SET(CMAKE_TARGET_DEFINITIONS
+set(CMAKE_TARGET_DEFINITIONS_CXX
   "DISABLE_DAVIDSDK"
   "DISABLE_DSSDK"
   "DISABLE_ENSENSO"
@@ -18,20 +18,51 @@ SET(CMAKE_TARGET_DEFINITIONS
   "DISABLE_PCAP"
   "DISABLE_PNG"
   "DISABLE_RSSDK"
+  "QT_CORE_LIB"
+  "QT_GUI_LIB"
+  "QT_NO_DEBUG"
+  "QT_WIDGETS_LIB"
   "qh_QHpointer"
-  )
-
-# Targets to which this target links.
-SET(CMAKE_TARGET_LINKED_INFO_FILES
+  "vtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"
+  "vtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"
+  "vtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"
+  "vtkIOImage_AUTOINIT=1(vtkIOMPIImage)"
+  "vtkIOSQL_AUTOINIT=2(vtkIOMySQL,vtkIOPostgreSQL)"
+  "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"
+  "vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)"
+  "vtkRenderingFreeType_AUTOINIT=2(vtkRenderingFreeTypeFontConfig,vtkRenderingMatplotlib)"
+  "vtkRenderingLIC_AUTOINIT=1(vtkRenderingParallelLIC)"
+  "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)"
   )
 
 # The include file search paths:
-SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/usr/include/vtk-5.8"
-  "/usr/local/include/pcl-1.8"
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/vtk-6.2"
+  "/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent"
+  "/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include"
+  "/usr/lib/openmpi/include"
+  "/usr/lib/openmpi/include/openmpi"
+  "/usr/include/python2.7"
+  "/usr/include/hdf5/openmpi"
+  "/usr/include/jsoncpp"
+  "/usr/include/x86_64-linux-gnu"
+  "/usr/include/libxml2"
+  "/usr/include/freetype2"
+  "/usr/include/x86_64-linux-gnu/freetype2"
+  "/usr/include/tcl"
+  "/usr/include/pcl-1.8"
   "/usr/include/eigen3"
   "/usr/include/ni"
+  "/usr/include/x86_64-linux-gnu/qt5"
+  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"
   )
-SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-SET(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
