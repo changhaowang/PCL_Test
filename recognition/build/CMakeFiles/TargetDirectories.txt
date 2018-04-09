@@ -1,0 +1,3 @@
+/home/wang/Desktop/pcl_test/recognition/build/CMakeFiles/edit_cache.dir
+/home/wang/Desktop/pcl_test/recognition/build/CMakeFiles/rebuild_cache.dir
+/home/wang/Desktop/pcl_test/recognition/build/CMakeFiles/correspondence_grouping.dir
